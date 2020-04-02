@@ -1,0 +1,27 @@
+Co wiemy?
+
+KS
+- Połączenie Ethernetem
+- universal_robots jest częścią ROS-industrial
+- ur_robot_driver_node jest częścią universal_robots 
+- ROS_industrial -> simple_messages -> UR-3
+- ur_modern_driver jest przestarzały 
+
+
+
+Co trzeba się dowiedzieć?
+
+KS
++ Jak robot zwraca informacje 
++ czy to działa z Polyscope?
++ Obczaić moveit (działa z UR3)
++ czy moveit działa z 
+
+
+
+Co trzeba zrobić?
+
+KS
+a) zbudować workspace UR w ROS kinetic
+b) spróbować zbudować workspace UR w ROS melodic (nie działa bez gmereania w ROS - do ponownego rozpatrzenia)
+c) gazebo - stacja robocza
