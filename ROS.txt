@@ -8,7 +8,11 @@ KS
 - ur_modern_driver jest przestarzały 
 
 MT
--Oficjalnie ros-industrial/universal_robot działa TYLKO na ubuntu 18.04 pod ROS Kinetic
+-Oficjalnie ros-industrial/universal_robot działa TYLKO na ubuntu 16.04 pod ROS Kinetic
+- Uruchomienie ROSa na wirtualnej maszynie wymaga konfiguracji bridge adapter'a
+-GAZEBO : Format modelu robota -> URDF, aplikacja gazebo następnie przerabia go na SDF.
+		MODEL URDF posiada opis kinematyki i dynamiki obiektu.
+	: Gazebo posiada kilka obiektów defaultowo których można dodać do przestrzeni. Następnie można stworzyć stacje roboczą <--- NEW
 
 
 Co trzeba się dowiedzieć?
@@ -20,6 +24,12 @@ KS
 + czy moveit działa z 
 
 
+MT
++ Struktura pliku URDF która jest wysyłana do Gazebo.
++ W jaki sposób działają pluginy, które umożliwiają sterowanie funkcjami gazebo? <-- NEW - to może się przydać do tworzenia stacji roboczej
++ Co dokładnie robi VRIZ? Po co on jest? Czy jest on zbędny?
+
+
 
 Co trzeba zrobić?
 
@@ -27,3 +37,6 @@ KS
 a) zbudować workspace UR w ROS kinetic
 b) spróbować zbudować workspace UR w ROS melodic (nie działa bez gmereania w ROS - do ponownego rozpatrzenia)
 c) gazebo - stacja robocza
+
+MT
+a) Przejść przez tutoriale gazebo
