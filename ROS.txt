@@ -8,6 +8,9 @@ KS
 - ur_modern_driver jest przestarzały 
 
 
+MT
+-Oficjalnie https://github.com/ros-industrial/universal_robot działa tylko na Ubuntu 16.04 pod wersją ROS Kinetic
+
 
 Co trzeba się dowiedzieć?
 
@@ -16,7 +19,6 @@ KS
 + czy to działa z Polyscope?
 + Obczaić moveit (działa z UR3)
 + czy moveit działa z 
-
 
 
 Co trzeba zrobić?
