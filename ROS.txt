@@ -7,6 +7,8 @@ KS
 - ROS_industrial -> simple_messages -> UR-3
 - ur_modern_driver jest przestarzały 
 
+MT
+-Oficjalnie ros-industrial/universal_robot działa TYLKO na ubuntu 18.04 pod ROS Kinetic
 
 
 Co trzeba się dowiedzieć?
