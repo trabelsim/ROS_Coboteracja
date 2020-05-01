@@ -1,0 +1,11 @@
+- https://dof.robotiq.com/discussion/1362/wrist-camera-and-2-finger-gripper-in-ros-moveit-and-gazebo
+- https://github.com/mikeferguson/moveit_python
+- https://groups.google.com/forum/#!topic/moveit-users/_M0mf-R7AvI/discussion
+- https://github.com/MrLacquer/ur3-moveit-test?fbclid=IwAR2vbfsQBYuHzVmDVoVtqksaWA9z0yCgfh03GBxcF29V-23wUbs7W5l9YfE
+-----------------------------------------------------------
+pick/place to bardziej zaawansowane metody posiadające listę ruchów, które należy wykonać aby bezpiecznie podejść do obiektu i daołączyć do chwytaka. Chwytak powinien ułatwić sprawę o tyle, że część danych (miejsce chwytu) jest podane, co ułatwia proces. Jeden z linków powyżej prowadzi do tematu, gdzie twóry "starej" paczki ROS do UR stwierdzają, że nie ma configa do naszego gripera i odradzają jego tworzenie. 
+
+Łatwiejsze do jest użycie fukcji attach/detach, które automatycznie przymocowują/odmontowują obiekt od ostatniej części robota. Wywołanie jest bardzo proste 		    self.robot_arm.attach_object("table")
+niestety pomija kilka przydatnych ficzerów.
+
+Na razie udało się przestawić obiekt, ale testowane jest kilka dróg i cos sie psuje w późniejszych próbach.

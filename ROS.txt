@@ -14,7 +14,6 @@ MT
 		MODEL URDF posiada opis kinematyki i dynamiki obiektu.
 	: Gazebo posiada kilka obiektów defaultowo których można dodać do przestrzeni. Następnie można stworzyć stacje roboczą <--- NEW
 
-
 Co trzeba się dowiedzieć?
 
 KS
